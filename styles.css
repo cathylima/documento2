@@ -27,7 +27,7 @@ body {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url('imagem-do-botao.jpg');
+  background-image: url('botão.jpg');
   background-size: cover;
   background-position: center;
   border: none;
