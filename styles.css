@@ -27,13 +27,14 @@ body {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 10px 20px;
+  background-image: url('imagem-do-botao.jpg');
+  background-size: cover;
+  background-position: center;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  padding: 0; /* Sem preenchimento extra */
 }
 
 .slider {
