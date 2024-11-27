@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider de Imagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="sua-imagem-inicial.jpg" alt="Imagem inicial" class="main-image">
+    <button class="button" onclick="openSlider()">Abrir Slider</button>
+  </div>
+
+  <div class="slider" id="slider">
+    <button class="close-btn" onclick="closeSlider()">Fechar</button>
+    <div class="slider-images" id="sliderImages">
+      <img src="imagem1.jpg" alt="Imagem 1" class="slider-image">
+      <img src="imagem2.jpg" alt="Imagem 2" class="slider-image">
+      <img src="imagem3.jpg" alt="Imagem 3" class="slider-image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
